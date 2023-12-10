@@ -1,0 +1,260 @@
+
+._text{
+  font-family: 'Didact Gothic', sans-serif;
+  width: 800px;
+  /* height: 200px; */
+  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: -100px
+
+
+}
+
+.home_text{
+  font-family: 'Didact Gothic', sans-serif;
+  width: 800px;
+  /* height: 200px; */
+  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: -140px;
+}
+
+
+
+.my_pic {
+  display: block;
+  /* margin-left: auto;
+  margin-right: auto; */
+  border-radius: 50%;
+  position: relative;
+  top: -140px;
+  left: 430px;
+
+}
+
+
+
+
+
+
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+
+.footer-social-links a{
+    width: 25px;
+    height: 25px;
+    line-height: 25px !important;
+    margin: 0 5px;
+    text-align: center;
+    display:inline-block;
+    color: #111;
+
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: -270px;
+    left: 500px;
+
+    /* top: 250%; */
+
+}
+
+#sayhi{
+
+  text-align: center;
+  position: relative;
+  top: -270px;
+  left: 150px;
+}
+
+
+.footer-social-links a:hover{
+    color: red;
+}
+.footer-social-links a:hover:before{
+    background: #111;
+}
+
+
+
+
+
+.footer-social-links-skills a{
+    width: 25px;
+    height: 25px;
+    line-height: 25px !important;
+    margin: 0 5px;
+    text-align: center;
+    display:inline-block;
+    color: #111;
+
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 40px;
+    left: 360px;
+
+    /* top: 250%; */
+
+}
+
+.footer-social-links-skills a:hover{
+    color: blue;
+}
+.footer-social-links-skills a:hover:before{
+    background: #111;
+}
+
+
+
+
+
+/* IMage */
+
+.vl_hobby_foto{
+  border-left: 2px solid #cfcfcf;
+  height: 950px;
+  position: absolute;
+  width: 50%;
+  bottom: -700px;
+  right: 500px
+
+}
+
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+
+
+
+
+
+.hobby_insta_link{
+  color: black;
+  font-size: 20px;
+  margin-bottom: 10px;
+  position:relative;
+  bottom:17px;
+  left: 82px;
+  width:100%;
+
+
+
+}
+
+
+.hobby_insta_link a:hover{
+    color: red;
+}
+  .hobby_insta_link a:hover:before{
+      background: #111;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  background-color: black;
+  top: 0;
+  bottom: 10px;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.container_ {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+  right: 150px;
+}
+
+/* Place the container to the left */
+.left {
+  left: 10px;
+}
+
+/* Place the container to the right */
+.right {
+  left: 50%;
+}
+
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -16px;
+}
+
+/* The actual content */
+.content {
+  padding: 20px 30px;
+  background-color: #b0e8de;
+  position: relative;
+  border-radius: 6px;
+}

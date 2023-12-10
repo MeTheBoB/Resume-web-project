@@ -1,0 +1,54 @@
+{% extends 'base.html'%}
+{% load staticfiles  %}
+
+
+{% block body_block %}
+
+
+<div class="_text">
+
+  <p></p>
+  <h3>Photography</h3><br>
+  <p>I enjoy Photography.</p>
+  <p>Check out more in my <a href="https://www.instagram.com/shad5i/">insta!</a></p>
+  <div class="hobby_insta_link" >
+    <a class='hobby_insta_link' href="https://www.instagram.com/shad5i/"><i class="fa fa-instagram"></i></a>
+  </div>
+
+
+
+
+
+  <div class="row">
+    <div class="column">
+
+      <img src="{% static 'images/hobby_images/20200114_151529.jpg' %}">
+      <img src="{% static 'images/hobby_images/20200224_14544 (1).jpg' %}">
+      <img src="{% static 'images/hobby_images/20200303_212428-2.jpg' %}">
+    </div>
+    <div class="column">
+      <img src="{% static 'images/hobby_images/20200114135713_IMG_2937-3.jpg' %}">
+      <img src="{% static 'images/hobby_images/20200114150938_IMG_3273-3.jpg' %}">
+      <img src="{% static 'images/hobby_images/20200114143823.jpg' %}">
+      <img src="">
+    </div>
+    <div class="column">
+      <img src="{% static 'images/hobby_images/tokyo.jpg' %}">
+      <img src="{% static 'images/hobby_images/20200114155031_IMG_3448-4.jpg' %}">
+      <img src="{% static 'images/hobby_images/20200229_123456-2.jpg' %}">
+    </div>
+    <div class="column">
+      <img src="{% static 'images/hobby_images/20200103_202548.jpg' %}">
+      <img src="{% static 'images/hobby_images/20200114145001_IMG_3124-4.jpg' %}">
+      <img src="{% static 'images/hobby_images/20200114145838_IMG_3197.jpg' %}">
+    </div>
+  </div>
+
+</div>
+
+
+
+
+
+
+{% endblock %}
